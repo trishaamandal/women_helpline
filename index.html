@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oomen-ebsite</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">WE-Omen
+                <i class="fa-solid fa-user-doctor"></i>
+            </div>
+            <div class="right">
+                <ul>
+                    <button id="getLocationBtn">Get Location</button>
+                    <div id="locationData"></div>
+                    <a href="#about-us">
+                        <li>About</li>
+                    </a>
+                    <a href="/">
+                        <li>Services</li>
+                    </a>
+                    <a href="/">
+                        <li>Disease</li>
+                    </a>
+                    <a href="#contact-info">
+                        <li>contact or email </li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi ,My Name Is <samp class="bigname">TRISHA</samp>
+                <div> And I am here for</div>
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="nurse.jpg" alt="1">
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Womens Health </i> Issues.', '&amp; Food that Body Needs.', ' Helping Womens anytype Problems.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <div class="shopsection">
+        <div class="box1 box">
+            <div class="box-content">
+                <h1>Hair Problems</h1>
+                <div class="box-img" style="background-image: url(hairproblem.png);"></div>
+                <p>see more</p>
+            </div>
+        </div>
+        <div class="box2 box">
+            <h1>Eye Problems</h1>
+            <div class="box-img " style="background-image: url(eye.webp);"></div>
+            <p>see more</p>
+        </div>
+        <div class="box3 box">
+            <h1>Gynecological Cancers</h1>
+            <div class="box-img" style="background-image: url(gynoCOGY.jpg);"></div>
+            <p>see more</p>
+        </div>
+        <div class="box4 box">
+            <h1>Pelvic Floor Disorders</h1>
+            <div class="box-img" style="background-image: url(PARVIC.jpeg);"></div>
+            <p>see more</p>
+        </div>
+    </div>
+
+    <div class="shopsection">
+        <div class="box5 box">
+            <div class="box-content">
+                <h1>Menstrual Disorders</h1>
+                <div class="box-img" style="background-image: url(MENSTRUAL.png);"></div>
+                <p>see more</p>
+            </div>
+        </div>
+        <div class="box6 box">
+            <h1>Reproduction Health Issues</h1>
+            <div class="box-img " style="background-image: url(repro.jpg);"></div>
+            <p>see more</p>
+        </div>
+        <div class="box7 box">
+            <h1>Breast Health</h1>
+            <div class="box-img" style="background-image: url(breastprob.jpg);"></div>
+            <p>see more</p>
+        </div>
+        <div class="box8 box">
+            <h1>Sexual Health Issues</h1>
+            <div class="box-img" style="background-image: url(sexualproblem.png);"></div>
+            <p>see more</p>
+        </div>
+    </div>
+
+    <div class="shopsection ">
+        <div class="box9 box">
+            <div class="box-content">
+                <h1>Pregnancy-related Conditions</h1>
+                <div class="box-img" style="background-image: url(pregnncy.png);"></div>
+                <p>see more</p>
+            </div>
+        </div>
+        <div class="box10 box">
+            <h1>Hormonal Disorders</h1>
+            <div class="box-img " style="background-image: url(hormonal\ problem.png);"></div>
+            <p>see more</p>
+        </div>
+        <div class="box11 box">
+            <h1>Bone Health</h1>
+            <div class="box-img" style="background-image: url(bones.jpg);"></div>
+            <p>see more</p>
+        </div>
+        <div class="box12 box">
+            <h1>Mental Health Issues</h1>
+            <div class="box-img" style="background-image: url(mentalhealth.png);"></div>
+            <p>see more</p>
+        </div>
+    </div>
+
+
+    <section id="contact-info">
+        <div>
+            <h2>Contact Information</h2>
+            <p>Email: trishamandal1700@gmail.com</p>
+            <p>Phone: 91+ 8670881002</p>
+        </div>
+    </section>
+
+
+
+    <section id="about-us">
+        <div>
+            <h2>About Our Site</h2>
+            <li>General check-ups and preventive screenings</li>
+            <li>Diagnosis and treatment of acute and chronic illnesses</li>
+            <li>Women's health services</li>
+            <li>Community Involvement</li>
+            <li>Schedule an Appointment</li>
+            <li>Expertise You Can Trust</li>
+            <li>Take Care Of The paisent</li>
+        </div>
+    </section>
+
+    <section id="fill-up-form">
+            <div>
+                <h2>Fill Up Form</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="message">Quarry Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+    </section>
+
+</body>
+
+</html>

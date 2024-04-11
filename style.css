@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    color: rgb(228, 228, 49);
+    font-weight: 200;
+    scroll-behavior: smooth;
+}
+
+
+
+.left {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+
+}
+
+.right {
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(88, 42, 88);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 24px;
+    text-decoration: none;
+    color: rgb(251, 252, 253);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(245, 250, 250);
+
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+    align-items: center;
+    background: none;
+}
+
+.firstsection>div {
+    width: 50%;
+
+
+}
+
+.leftsection {
+    margin-top: 20px;
+    width: 30%;
+    font-size: 2.0rem;
+    color: rgb(42, 31, 58);
+}
+
+.rightsection {
+    width: 60%;
+
+}
+
+.rightsection img {
+    width: 100%;
+    margin: 60px;
+}
+
+.bigname {
+    color: rgb(162, 34, 194);
+}
+
+#element {
+    color: rgb(93, 38, 110);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.bigname {
+    color: rgb(122, 66, 136);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#element {
+    color: rgb(123, 25, 153);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 1.7rem;
+
+}
+
+.workgreen {
+    color: rgba(63, 61, 61, 0.801);
+    font-size: 1.3rem;
+}
+
+
+.secondsection .vertical {
+    height: 90px;
+    width: 1px;
+    background-color: antiquewhite;
+    margin: 0 5vw;
+}
+
+.shopsection {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.box {
+    height: 500px;
+    width: 22%;
+    color: black;
+    cursor: pointer;
+    border-radius: 2%;
+    border: 2px solid black;
+    background-color: rgb(175, 219, 230);
+    margin-bottom: 20px;
+    padding: 20px 0px 14px;
+    z-index: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.box-img {
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+}
+
+.box:hover {
+    background-color: rgba(131, 55, 55, 0.4);
+    box-shadow: 0 22px 50px rgba(43, 73, 156, 0.4);
+    transition: all 0.5s;
+    scale: .9;
+}
+
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#contact-info {
+    background-color: #8b98cf;
+    color: black;
+    margin-block: 20px;
+    margin-right: 80%;
+    height: 100px;
+    margin-left: 40px;
+
+
+}
+
+#about-us {
+    color: black;
+    background-color: rgb(103, 103, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 20px;
+    margin-left: 800px;
+    margin-right: 500px;
+    margin-top: -130px;
+}
+
+#fill-up-form {
+    background-color: rgb(112, 123, 173);
+    color: rgb(37, 36, 36);
+    margin-block: 20px;
+    text-align: center;
+}
+
+/*.box2{
+    height: 100px;
+    width: 18%;
+    color: black;
+    cursor: pointer;
+    border-radius: 5%;
+    border: 2px solid rgb(85, 102, 133);
+    background-color: rgb(197, 203, 212);
+    margin-bottom: 20px;
+    padding: 20px 0px 14px;
+    z-index: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.box2:hover {
+    background-color: rgba(131, 55, 55, 0.4);
+    box-shadow: 0 22px 50px rgba(43, 73, 156, 0.4);
+    transition: all 0.5s;
+    scale: .9;
+}
+
+.box3{
+    height: 500px;
+    width: 22%;
+    color: black;
+    cursor: pointer;
+    border-radius: 2%;
+    border: 2px solid black;
+    background-color: rgb(175, 219, 230);
+    margin-bottom: 20px;
+    padding: 20px 0px 14px;
+    z-index: 10px;
+    backdrop-filter: blur(5px);
+}*/
